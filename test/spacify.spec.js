@@ -23,7 +23,7 @@ describe("Spacify function", function () {
 	});
 
 	// Low-level requirement (remove "skip" to enable requirement)
-	it.skip("should be implemented by means of \"join\" function", function () {
+	it("should be implemented by means of \"join\" function", function () {
 		expect("foo".spacify.toString()).to.contain(".join(");
 	});
 });
